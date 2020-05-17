@@ -41,13 +41,13 @@ public class Maszyny
         //Sortowanie po cenie w górę:
         Collections.sort(maszyny);
         
-        for (Maszyna dysk : maszyny)
-            System.out.println(dysk.toString());
+        for (Maszyna maszyna : maszyny)
+            System.out.println(maszyna.toString());
         //Sortowanie po cenie w dół:
         Collections.reverse(maszyny);
         
-        for (Maszyna dysk : maszyny)
-            System.out.println(dysk.toString());
+        for (Maszyna maszyna : maszyny)
+            System.out.println(maszyna.toString());
     }
     static void Z3()
     {
